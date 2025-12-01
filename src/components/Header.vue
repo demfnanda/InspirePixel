@@ -11,6 +11,7 @@ import busca from "../assets/busca.png"
 <header>
     <img :src="logo" alt="">
     <nav>
+      <ul>
         <li>
             <a href="">
                <img :src="busca" alt=""> <!-- NÃO ESQUECER DE COLOCAR OS : ANTES DO SRC-->
@@ -27,9 +28,11 @@ import busca from "../assets/busca.png"
         </li>
         <li>
             <a href="">
-                <img src="" alt="">
+                <img :src="pessoa" alt="">
             </a>
         </li>
+      </ul>  
+        
     </nav>
    
 </header>
@@ -38,7 +41,7 @@ import busca from "../assets/busca.png"
 
 <style scoped lang="scss">
     header{
-        // border: solid;
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -48,6 +51,13 @@ import busca from "../assets/busca.png"
         ul{
             display: flex;
             gap: 1.5rem;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
         }
     }
 </style>
