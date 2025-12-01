@@ -38,11 +38,16 @@ import busca from "../assets/busca.png"
 
 <style scoped lang="scss">
     header{
-        border: solid;
+        // border: solid;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         margin: 2rem;
+
+        ul{
+            display: flex;
+            gap: 1.5rem;
+        }
     }
 </style>
