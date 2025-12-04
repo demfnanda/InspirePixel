@@ -3,6 +3,7 @@ import logo from "../assets/logo.png"
 // import { Icon } from "@iconify/vue"
 import pessoa from "../assets/pessoa.png"
 import busca from "../assets/busca.png"
+import menu from "../assets/menu.png"
 
 </script>
 
@@ -40,6 +41,7 @@ import busca from "../assets/busca.png"
 </template>
 
 <style scoped lang="scss">
+
     header{
         
         display: flex;
@@ -60,4 +62,5 @@ import busca from "../assets/busca.png"
             color: black;
         }
     }
+
 </style>
